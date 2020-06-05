@@ -11,17 +11,17 @@ body{
   margin-right:250px;
 
 }
-a{
+#headerz a{
   text-decoration: none;
   color: #000;
 }
-a:hover{
+#headerz a:hover{
   color:red;
 }
-a:active{
+#headerz a:active{
   color:green;
 }
-a:visited{
+#headerz a:visited{
   color:000;
 }
 #main-block{

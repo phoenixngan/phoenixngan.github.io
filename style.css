@@ -68,6 +68,10 @@ a:visited{
   top:125px;
   width:20%;
 }
+.picture2{
+  position:relative;
+  margin-left:26%;
+}
 .container2{
   float:left;
   width:60%;

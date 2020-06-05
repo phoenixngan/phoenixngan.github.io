@@ -91,6 +91,10 @@ body{
   top:125px;
   width:20%;
 }
+.uppercase{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 .container2{
   float:left;
   width:60%;
@@ -106,7 +110,6 @@ body{
 .project{
   float:left;
   margin-bottom: 50px;
-  text-decoration: underline;
   width:100%
 }
 
@@ -119,10 +122,20 @@ body{
   left: 250px;
   top: 350px;
 }
+
 .more p{
   position: absolute;
   left: 500px;
   top: 250px;
   font-size: 30px;
-  text-decoration: underline;
+  text-decoration: none;
+}
+.more a{
+  color:black;
+}
+#headerz2 a:visited{
+  color:black;
+}
+.bankAcc a:visited{
+  color:black;
 }

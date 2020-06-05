@@ -55,6 +55,20 @@ a:visited{
   margin:auto;
   width:12%;
 }
+#contact h1{
+  float:left;
+  width:60%;
+}
+#contact p{
+  float:left;
+  width:50%;
+}
+#contact a{
+  color:blue;
+}
+#contact a:hover{
+  color:red;
+}
 .container{
   margin-top:20px;
   float:left;
@@ -70,6 +84,12 @@ a:visited{
 }
 .picture2{
   margin-left:26%;
+}
+.picture3{
+  position:absolute;
+  right:525px;
+  top:125px;
+  width:20%;
 }
 .container2{
   float:left;

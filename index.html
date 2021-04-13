@@ -9,24 +9,51 @@
     <meta name = "keywords" content = "Phoenix Ngan Website, Personal Website">
   </head>
 
-<body>
-  <header>
-    <!-- NAVBAR -->
-    <div class = "container">
-      <img src = "Title.png" alt = "logo" class = "lgo">
-      <nav>
-        <ul>
-          <li><a href = "https://phoenixngan.github.io/">Home</a></li>
-          <li><a href = "https://phoenixngan.github.io/resume">Resume</a></li>
-          <li><a href = "https://phoenixngan.github.io/Projects">Projects</a></li>
-          <li><a href = "https://phoenixngan.github.io/Contact">Contact</a></li>
-        </ul>
-      </nav>
+  <body>
+    <header>
+      <!-- NAVBAR -->
+      <div class = "container">
+        <img src = "Title.png" alt = "logo" class = "lgo">
+        <nav>
+          <ul>
+            <li><a href = "https://phoenixngan.github.io/">Home</a></li>
+            <li><a href = "https://phoenixngan.github.io/resume">Resume</a></li>
+            <li><a href = "https://phoenixngan.github.io/Projects">Projects</a></li>
+            <li><a href = "https://phoenixngan.github.io/Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id = "HelloWorld">
+        <h1 id = "demo">
+          <span class = "blink_me">_</span>
+        </h1>
     </div>
-  </header>
 
+    <div class = "container">
+      <p> My name is Phoenix. I am currently a student studying computer science at California State University, Long Beach. After switching through many different majors, my passion for technology and gaming
+        brought me to computer science. I have always been interested in games and the way they bring groups of people together in a creative and collaborative environment. Although I have only recently
+        discovered my passion for computer science, I have decided that I really enjoy learning how to code and decided to pursue a degree for it. I am eager to learn and I am trying to grab all of the
+        opportunities that I can to grow, and become a better coder. I am striving to become a great software engineer and I am enjoying every part of the journey!
+      </p>
+    </div>
+  </body>
 
-</body>
+  <script>
+  var i = 0;
+  var txt = 'Hello World_';
+  var speed = 150;
+
+  (function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("demo").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  })();
+  </script>
+</html>
 <!--
  <body>
     <!-- Heading --
@@ -36,7 +63,7 @@
     <!--Image --
     <div class = "picture">
       <img src= "me.jpg" alt = "Sample Image" width = "100"> <!-- 400 -->
-    </div>
+    <!--</div>
     <!--Paragraph--
     <div class = "container2">
       <p> My name is Phoenix. I am currently a student studying computer science at Long Beach Community College. After switching through many different majors, my passion for technology and gaming

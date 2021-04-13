@@ -1,19 +1,24 @@
 body{
   margin:0;
-  background-color:#34282C;
+  background-color: #fafffe;
+  background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 header{
   width:100%;
   padding-top:5px;
-  padding-left:12px;
-  background-image: linear-gradient(90deg, white, #3bd19e);
-  background-color: #55d6aa;
+  background-color: #d9fbff;
+  background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /*background-image: linear-gradient(90deg, white, #3bd19e);*
+  background-color: #55d6aa;*/
 }
 
 .container{
   max-width: 100%;
   margin-left: 0 auto;
   margin-right: 50px;
+  margin-left: 50px;
 }
 
 .logo{
@@ -62,6 +67,26 @@ header::after{
   display: table;
   clear:both;
 }
+
+#HelloWorld{
+  margin-left: 50px;
+  margin-bottom: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 35px;
+  color: black;
+  transition: all ease-in-out 1500ms;
+}
+
+.blink_me {
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+
 /*
 #main-block{
   position:relative;

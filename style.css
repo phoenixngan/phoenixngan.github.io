@@ -68,7 +68,7 @@ header::after{
   font-size: 30px;
   float:left;
   width:64%;
-}
+}*/
 #contactz h1{
   float:left;
   width:100%;
@@ -83,6 +83,7 @@ header::after{
 #contactz a:hover{
   color:red;
 }
+/*
 .HelloWorld{
   margin-top:20px;
   float:left;

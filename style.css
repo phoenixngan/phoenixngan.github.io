@@ -69,16 +69,18 @@ header::after{
   clear:both;
 }
 
-#HelloWorld{
+#HelloWorld h1{
   margin-left: 50px;
   margin-bottom: 0;
   padding: 0;
   font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  font-size: 35px;
+  font-weight: 400;
+  font-size: 90px;
   color: black;
+  margin-bottom: 50px;
   /*transition: all ease-in-out 1500ms;*/
 }
+
 .container p{
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
@@ -86,6 +88,7 @@ header::after{
   color: black;
   line-height: 20px;
 }
+
 #demo {
     display: inline-block;
     direction: rtl;
@@ -97,10 +100,10 @@ header::after{
   padding-left:50px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  font-size: 75px;
+  font-size: 90px;
   color: black;
-
 }
+
 #contact p{
   float:left;
   width:50%;
@@ -129,12 +132,7 @@ header::after{
   top: 50px;
   left: 27.5%;
 }
-#demo{
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  font-size: 35px;
-  color: black;
-}
+
 .blink_me {
   animation: blinker 1.5s linear infinite;
 }

@@ -129,6 +129,12 @@ header::after{
   top: 50px;
   left: 27.5%;
 }
+#demo{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 35px;
+  color: black;
+}
 .blink_me {
   animation: blinker 1.5s linear infinite;
 }

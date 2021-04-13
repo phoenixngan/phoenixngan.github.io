@@ -79,6 +79,11 @@ header::after{
   transition: all ease-in-out 1500ms;
 }
 
+#demo {
+    display: inline-block;
+    direction: rtl;
+}
+
 .blink_me {
   animation: blinker 1.5s linear infinite;
 }

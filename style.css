@@ -84,6 +84,7 @@ header::after{
   font-weight: 400;
   font-size: 16px;
   color: black;
+  line-height: 20px;
 }
 #demo {
     display: inline-block;
@@ -121,6 +122,12 @@ header::after{
   width: 100%;
   top: 100px;
   left: 100px;
+}
+#picture2{
+  position: relative;
+  width: 100%;
+  top: 50px;
+  left: 27.5%;
 }
 .blink_me {
   animation: blinker 1.5s linear infinite;

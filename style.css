@@ -11,17 +11,24 @@ body{
   margin-right:250px;
 
 }
-#headerz a{
+header{
+  background: #green;
+}
+.NavBar{
+  width = 80%;
+  margin: 0 auto;
+}
+.NavBar a{
   text-decoration: none;
   color: #000;
 }
-#headerz a:hover{
+.NavBar a:hover{
   color:red;
 }
-#headerz a:active{
+.NavBar a:active{
   color:green;
 }
-#headerz a:visited{
+.NavBar a:visited{
   color:000;
 }
 #main-block{

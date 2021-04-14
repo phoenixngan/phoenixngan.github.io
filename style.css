@@ -2,7 +2,6 @@ body{
   margin:0;
   background-color: #fafffe;
   background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 header{
   width:100%;
@@ -10,9 +9,6 @@ header{
   padding-top: 5px;
   background-color: #d9fbff;
   background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  /*background-image: linear-gradient(90deg, white, #3bd19e);*
-  background-color: #55d6aa;*/
 }
 
 .container{
@@ -63,6 +59,55 @@ nav a:hover::before{
 nav a:hover{
   color: white;
 }
+
+
+.navbar{
+  position: fixed;
+  float: right;
+  bottom: 0%;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  background-color: #d9fbff;
+  background-image: /*url("https://www.transparenttextures.com/patterns/gradient-squares.png");/*url("https://www.transparenttextures.com/patterns/arches.png");*/
+}
+.navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navbar li{
+  padding-bottom: 25px;
+  display: inline-block;
+  float: right;
+  margin-right: 80px;
+  position: static;
+}
+.navbar a{
+  color: #34282C;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+}
+.navbar a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  bottom: 25px;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+.navbar a:hover::before{
+  width: 1.1%;
+}
+.navbar a:hover{
+  color: white;
+}
+
+
 header::after{
   content: '';
   display: table;

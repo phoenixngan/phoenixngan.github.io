@@ -127,11 +127,31 @@ header::after{
 }
 
 .container p{
+  width: 100%;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: black;
   line-height: 20px;
+}
+
+#IDparagraph p{
+  float:left;
+  width:50%;
+  padding-left:50px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  line-height: 20px;
+}
+
+#picture{
+  float:right;
+  position: relative;
+  width: 40%;
+  bottom: 0px;
+  left: 0px;
 }
 
 #demo {
@@ -159,23 +179,20 @@ header::after{
   color: black;
   line-height: 20px;
 }
+
 #contact a{
   color:blue;
 }
+
 #contact a:hover{
   color:red;
 }
+
 #picture3{
   position: relative;
   width: 100%;
   top: 100px;
   left: 100px;
-}
-#picture2{
-  position: relative;
-  width: 40%;
-  bottom: 10%;
-  left: 10%;
 }
 
 .blink_me {

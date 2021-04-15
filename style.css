@@ -10,7 +10,10 @@ header{
   background-color: #d9fbff;
   background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png");
 }
-
+ html{
+   margin-top:0%;
+   margin-bottom: -40%;
+ }
 .container{
   max-width: 100%;
   margin-left: 0 auto;
@@ -132,7 +135,7 @@ header::after{
   font-weight: 400;
   font-size: 16px;
   color: black;
-  line-height: 20px;
+  line-height: 0px;
 }
 
 #IDparagraph p{
@@ -143,15 +146,52 @@ header::after{
   font-weight: 400;
   font-size: 16px;
   color: black;
-  line-height: 20px;
+  line-height: 25px;
+}
+
+#IDparagraph li{
+  width:50%;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  line-height: 25px;
+}
+
+.Font{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
+ul.Skills{
+  float:left;
+  width:50%;
+  margin-top:0%;
+  padding-left:50px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: black;
+  line-height: 25px;
+}
+
+li.Info{
+  width:50%;
+  margin-left:50px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: black;
+  line-height: 25px;
 }
 
 #picture{
   float:right;
   position: relative;
-  width: 40%;
-  bottom: 0px;
-  left: 0px;
+  width: 25%;
+  bottom: 550px;
+  right: 200px;
+  padding-bottom: 40px;
 }
 
 #demo {

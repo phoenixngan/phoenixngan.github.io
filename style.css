@@ -11,8 +11,8 @@ header{
   background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png");
 }
  html{
-   margin-top:0%;
-   margin-bottom: -40%;
+   margin: 0;
+   padding: 0;
  }
 .container{
   max-width: 100%;
@@ -192,6 +192,8 @@ li.Info{
   bottom: 550px;
   right: 200px;
   padding-bottom: 40px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 #demo {
@@ -230,7 +232,7 @@ li.Info{
 
 #picture3{
   position: relative;
-  width: 100%;
+  width: 90%;
   top: 100px;
   left: 100px;
 }

@@ -245,7 +245,10 @@ li.Info{
 #picture3{
   position: relative;
   float: left;
+  bottom: 200px;
+  left: 50px;
   width: 20%;
+  padding-bottom: 50px;
   /*top: 100px;
   left: 100px;*/
 }
